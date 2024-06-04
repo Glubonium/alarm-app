@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Будильник</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Будильник</h1>
+        <div class="input-container">
+            <label for="alarm-date">Дата будильника:</label>
+            <input type="date" id="alarm-date">
+            <label for="alarm-time">Час будильника:</label>
+            <input type="time" id="alarm-time">
+            <button id="set-alarm-btn">Встановити будильник</button>
+            <button id="clear-alarm-btn">Вимкнути будильник</button>
+        </div>
+        <div id="alarm-message" class="hidden">
+            <p>Час вставати!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
